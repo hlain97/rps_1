@@ -1,4 +1,12 @@
-console.log('hello ser');
+const btn = document.querySelectorAll("img");
+const playerScore = document.querySelector("#playerScore");
+const computerScore = document.querySelector("computerScore");
+
+btn.forEach((btn) => { 
+    btn.addEventListener('click', () => {
+        alert('helooo')
+    })
+})
 
 let getComputerChoice = function(){
     let random = Math.random();
